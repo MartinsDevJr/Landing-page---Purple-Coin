@@ -5,19 +5,31 @@
   padding: 0;
   box-sizing: border-box;
   list-style: none;
+  
+  
+  @media screen {
+    zoom: 92%;
+    
+    
+  }
 }
 
 body {
   background-color: black;
   font-size: 1rem;
   color: #fff;
+  
+ 
+  
+  
+    
 }
 
 header {
   padding: 6rem;
   position: absolute;
   align-items: center;
-  left: 50vw;
+  left: 98rem;
   transform: translateX(-50%);
   display: grid;
   grid-template-columns: repeat(2, 0.125rem);
@@ -28,8 +40,8 @@ header {
   position: absolute;
   width: 12.3125rem;
   transform: translateX(-50%);
-  left: -17vw;
-  top: 2.5vw;
+  left: -36rem;
+  top: 4rem;
   cursor: pointer;
 }
 
@@ -40,7 +52,7 @@ nav {
     position: relative;
     text-align: center;
     cursor: pointer;
-    left: 50vw;
+    left: 98rem;
   }
 
   .signup {
@@ -50,7 +62,7 @@ nav {
     width: 8.75rem;
     height: 3.125rem;
     transform: translateX(50%);
-    border-radius: 50px;
+    border-radius: 3.125rem;
     justify-content: center;
     padding: 0.75rem;
     font-family: "Montserrat";
@@ -74,7 +86,7 @@ nav {
   top: 35rem;
   transform: translateX(-50%);
   transform: translateY(20%);
-  left: 29%;
+  left: 55rem;
   width: 100rem;
   padding-top: 0.3125rem;
   font-family: "jockey one";
@@ -131,49 +143,49 @@ nav {
 }
 
 .smartphone {
-  transform: translateX(400%);
+  transform: translateX(-50%);
   position: absolute;
-  top: 124%;
-  left: -13.75rem;
-  width: 30pc;
+  left: 120rem;
+  top: 94rem;
+  width: 30rem;
 }
 .real-time {
   position: absolute;
   transform: translateX(50%);
-  left: 18%;
-  top: 150%;
+  left: 38rem;
+  top: 113rem;
   font-family: "Montserrat";
   font-size: 3.75rem;
 }
 
 .coins {
+  transform: translateX(-50%);
   position: absolute;
-  left: 55rem;
-  width: 100pc;
-  top: 100%;
+  left: 100rem;
+  width: 120rem;
+  top: 80rem;
 }
 
 #text-information {
   position: absolute;
   transform: translateX(-50%);
-  left: 50%;
-  top: 200%;
+  left: 99rem;
+  top: 156rem;
 }
 
 div .real-time::before {
   background: linear-gradient(45deg, rgb(139, 68, 125), rgba(0, 0, 0, 0));
   content: "";
   position: absolute;
-  top: 50%;
-  left: -20%;
+  top: 9.4rem;
+  left: -13rem;
   transform: translateX(-50%);
   transform: translateY(-50%);
   filter: brightness(4px);
-
-  width: 100pc;
-  height: 60pc;
+  width: 105rem;
+  height: 60rem;
   background-repeat: no-repeat;
-  border-radius: 50px;
+  border-radius: 3.125rem;
   z-index: -1; /* Coloca o fundo atrás do texto */
   opacity: 0.5; /* Ajusta a opacidade do fundo */
 }
@@ -184,7 +196,7 @@ div {
     font-family: "Montserrat";
     transform: translateX(-50%);
     transform: translateY(40%);
-    left: -3%;
+    left: -3rem;
     font-size: 3.4375rem;
     letter-spacing: 0.0625rem;
     word-spacing: 17.5rem;
@@ -193,44 +205,25 @@ div {
 }
 
 div .number::before {
-  background: linear-gradient(45deg, rgb(139, 68, 125), rgba(0, 0, 0, 0));
+  background: linear-gradient(45deg, rgb(139, 68, 125), rgba(0, 0, 0, 0.842));
   content: "";
   position: absolute;
-  top: 70%;
-  left: -30%;
-  transform: translateX(-50% 50%);
+  top: -20rem;
+  left: -50rem;
+  transform: translateX(-50%);
   transform: translateY(-50%);
-  width: 179.5pc;
-  height: 10pc;
+  width: 225rem;
+  height: 10rem;
   background-repeat: no-repeat;
   z-index: -1; /* Coloca o fundo atrás do texto */
   opacity: 0.5; /* Ajusta a opacidade do fundo */
 }
 
-.dúvidas {
-  transform: translateX(-50%);
-  left: 80%;
-  top: -23.125rem;
-  position: relative;
-  z-index: -2;
-}
-.dúvidas::before {
-  background-color: purple;
-  content: "";
-  position: absolute;
-  top: 38vw;
-  left: -5.3vw;
-  transform: translateX(-50% 50%);
-  transform: translateY(-50%);
-  width: 6.9vw;
-  height: 2vw;
-  background-repeat: no-repeat;
-  z-index: -2; /* Coloca o fundo atrás do texto */
-}
+
 
 .liquidez {
   transform: translateX(50%);
-  left: -1%;
+  left: -1rem;
   display: inline;
   position: relative;
   font-family: "Montserrat";
@@ -240,7 +233,7 @@ div .number::before {
 }
 .holders {
   transform: translateX(50%);
-  left: 20.8%;
+  left: 20.8rem;
   display: inline;
   position: relative;
   font-family: "Montserrat";
@@ -250,7 +243,7 @@ div .number::before {
 }
 .rentabilidade {
   transform: translateX(50%);
-  left: 39.8%;
+  left: 39.8rem;
   display: inline;
   position: relative;
   font-family: "Montserrat";
@@ -260,7 +253,7 @@ div .number::before {
 }
 .mercado {
   transform: translateX(50%);
-  left: 55.1%;
+  left: 55.1rem;
   display: inline;
   position: relative;
   font-family: "Montserrat";
@@ -273,25 +266,51 @@ div .number::before {
   position: absolute;
   transform: translateX(-50%);
   transform: translateY(-50%);
-  top: 31.25rem;
-  left: -118.75rem;
+  top: 5rem;
+  left: -130rem;
 }
 
 div {
   & h1 {
     font-family: "Montserrat";
     transform: translateX(-50%);
-    left: 22%;
+    left: 22rem;
     position: absolute;
-    top: 52.5rem;
-    font-size: 3.125rem;
+    top: 44rem;
+    font-size: 4rem;
     font-weight: bold;
   }
 }
+
+.dúvidas {
+  transform: translateX(-50%);
+  left: 80rem;
+  top: -23.125rem;
+  position: relative;
+  z-index: -2;
+}
+.dúvidas::before {
+  background-color: purple;
+  content: "";
+  position: absolute;
+  top: 65.4rem;
+  left: -19rem;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+  width: 18rem;
+  height: 4rem;
+  background-repeat: no-repeat;
+  z-index: -2; /* Coloca o fundo atrás do texto */
+}
+
+.dúvidas-list{
+  font-size: 10rem;
+}
+
 .o-que-é {
   font-family: "Montserrat";
   transform: translateX(-50%);
-  left: 50%;
+  left: 48.4rem;
   display: flex;
   position: absolute;
   top: 69.5rem;
@@ -303,12 +322,13 @@ div {
   background: linear-gradient(45deg, rgb(139, 68, 125), rgba(0, 0, 0, 0));
   content: "";
   position: absolute;
-  top: 53%;
-  left: -10%;
+  display:flex;
+  top: 0.8rem;
+  left: -0.94rem;
   transform: translateX(-50% 50%);
   transform: translateY(-50%);
-  width: 20vw;
-  height: 3pc;
+  width: 30rem;
+  height: 3rem;
   border-radius: 0.625rem;
   background-repeat: no-repeat;
   z-index: -1; /* Coloca o fundo atrás do texto */
@@ -318,7 +338,7 @@ div {
 .como-eu-posso {
   font-family: "Montserrat";
   transform: translateX(-50%);
-  left: 54.4%;
+  left: 52.7rem;
   display: flex;
   position: absolute;
   top: 73.125rem;
@@ -330,12 +350,13 @@ div {
   background: linear-gradient(45deg, rgb(139, 68, 125), rgba(0, 0, 0, 0));
   content: "";
   position: absolute;
-  top: 53%;
-  left: -6%;
+  top: 0.8rem;
+  left: -1rem;
   transform: translateX(-50% 50%);
   transform: translateY(-50%);
-  width: 20vw;
-  height: 3pc;
+  width: 20rem;
+  height: 3rem;
+  display:flex;
   border-radius: 0.625rem;
   background-repeat: no-repeat;
   z-index: -1; /* Coloca o fundo atrás do texto */
@@ -345,9 +366,9 @@ div {
 .como-recebo {
   font-family: "Montserrat";
   transform: translateX(-50%);
-  left: 59.8%;
+  left: 96rem;
   display: flex;
-  position: absolute;
+  position: relative;
   top: 76.6875rem;
   font-size: 1.25rem;
   font-weight: 400;
@@ -357,12 +378,13 @@ div {
   background: linear-gradient(45deg, rgb(139, 68, 125), rgba(0, 0, 0, 0));
   content: "";
   position: absolute;
-  top: 53%;
-  left: -4%;
+  display:flex;
+  top: 0.9rem;
+  left: -1.2rem;
   transform: translateX(-50% 50%);
   transform: translateY(-50%);
-  width: 20vw;
-  height: 3pc;
+  width: 30rem;
+  height: 3rem;
   border-radius: 0.625rem;
   background-repeat: no-repeat;
   z-index: -1; /* Coloca o fundo atrás do texto */
@@ -372,11 +394,11 @@ div {
 .qual-risco {
   font-family: "Montserrat";
   transform: translateX(-50%);
-  left: 55.3%;
-  display: flex;
+  left: 53.2rem;
+  display:flex;
   position: absolute;
-  top: 80.125rem;
-  font-size: 1.25rem;
+  top: 80.160rem;
+  font-size: 1.2rem;
   font-weight: 400;
 }
 
@@ -384,8 +406,9 @@ div {
   background: linear-gradient(45deg, rgb(139, 68, 125), rgba(0, 0, 0, 0));
   content: "";
   position: absolute;
-  top: 67%;
-  left: -6%;
+  display:flex;
+  top: 1.2rem;
+  left: -1.2rem;
   transform: translateX(-50% 50%);
   transform: translateY(-50%);
   width: 20vw;
@@ -397,7 +420,7 @@ div {
 }
 
 .plus {
-  display: grid;
+  display:flex;
   gap: 2.5rem;
   transform: translateX(-50%);
   transform: translateY(-50%);
@@ -406,9 +429,20 @@ div {
   top: 35.4vw;
   cursor: pointer;
 }
+.plus-list{
+  display:flex;
+  gap: 2.5rem;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+  position: absolute;
+  left: 30vw;
+  top: -6vw;
+  cursor: pointer;
 
+
+}
 .plus-2 {
-  display: grid;
+  display:flex;
   gap: 2.5rem;
   transform: translateX(-50%);
   transform: translateY(-50%);
@@ -419,7 +453,7 @@ div {
 }
 
 .plus-3 {
-  display: grid;
+  display:flex;
   gap: 2.5rem;
   transform: translateX(-50%);
   transform: translateY(-50%);
@@ -430,7 +464,7 @@ div {
 }
 
 .plus-4 {
-  display: grid;
+  display:flex;
   gap: 2.5rem;
   transform: translateX(-50%);
   transform: translateY(-50%);
@@ -443,67 +477,73 @@ div {
   position: relative;
   top: 15vw;
   transform: translateX(-50%);
-  left: 22vw;
+  left: 48rem;
 }
 
 .text-listing {
   transform: translateX(-50%);
-  left: 55%;
+  left: 54rem;
   position: absolute;
-  top: 40vw;
+  top: 70rem;
   font-family: "Montserrat";
   font-size: 2.1875rem;
   font-weight: 300;
-  width: 30vw;
+  width: 60rem;
 }
 .one {
   position: relative;
-  width: 10vw;
-  top: 26vw;
+  width: 15rem;
+  top: 41rem;
   cursor: pointer;
 }
 .two {
   position: relative;
-  width: 10vw;
+  width: 17rem;
+  top: 40.4rem;
   transform: translateX(-50%);
-  left: 20%;
-  top: 25.3vw;
+  left: 19rem;
   cursor: pointer;
 }
 .tree {
   position: relative;
-  width: 10vw;
+  width: 17rem;
+  top: 38.3rem;
   transform: translateX(-50%);
-  left: 32%;
-  top: 24.1vw;
+  left: 27rem;
   cursor: pointer;
 }
 .four {
   position: relative;
-  width: 5vw;
+  width: 10rem;
+  top: 37rem;
   transform: translateX(-50%);
-  left: 38%;
-  top: 23.3vw;
+  left: 35rem;
   cursor: pointer;
 }
 
 /*footer*/
+.footer-text{
+  font-size: large;
+  transform: translateX(-50%);
+  left: 50%;
+  top: 20rem;
+}
 
 footer {
   transform: translateY(200%);
-  bottom: 20vw;
+  bottom: 20rem;
 }
 
 .footer::before {
   background-color: purple;
   content: "";
   position: absolute;
-  top: 135vw;
-  left: -1vw;
+  top: 240rem;
+  left: -1rem;
   transform: translateX(-50%);
   transform: translateY(-50%);
-  width: 100.4vw;
-  height: 12.8vw;
+  width: 204.2rem;
+  height: 20rem;
   background-repeat: no-repeat;
   z-index: -1; /* Coloca o fundo atrás do texto */
   opacity: 1; /* Ajusta a opacidade do fundo */
@@ -511,10 +551,10 @@ footer {
 
 .logotipo-footer {
   position: relative;
-  width: 7vw;
+  width: 17rem;
   transform: translateX(-50%);
   transform: translateY(50%);
-  top: 132vw;
+  top: 278rem;
   left: 23.8vw;
   cursor: pointer;
 }
@@ -522,23 +562,24 @@ footer {
 .procuct {
   font-family: "Montserrat";
   transform: translateX(-50%);
-  left: 54.4%;
+  left: 123rem;
+  top: 277rem;
   display: flex;
   position: absolute;
-  top: 133vw;
-  font-size: 0.9vw;
+  font-size: 2.3rem;
   font-weight: 400;
 }
 
 .procuct-list {
   font-family: "Montserrat";
   transform: translateX(-50%);
-  left: 54.3%;
+  transform: translateX(-50%);
+  left: 122.7rem;
+  top: 281.8rem;
   display: grid;
   position: absolute;
   gap: 0.625rem;
-  top: 135vw;
-  font-size: 0.6vw;
+  font-size: 1.6rem;
   font-weight: 200;
   cursor: pointer;
 }
@@ -546,23 +587,23 @@ footer {
 .Listing {
   font-family: "Montserrat";
   transform: translateX(-50%);
-  left: 69%;
+  left: 149rem;
+  top: 277rem;
   display: flex;
   position: absolute;
-  top: 133vw;
-  font-size: 0.9vw;
+  font-size: 2.3rem;
   font-weight: 400;
 }
 
 .Listing-list {
   font-family: "Montserrat";
   transform: translateX(-50%);
-  left: 69.2%;
+  left: 149rem;
+  top: 281.8rem;
   display: grid;
   position: absolute;
   gap: 0.625rem;
-  top: 135vw;
-  font-size: 0.6vw;
+  font-size: 1.6rem;
   font-weight: 200;
   cursor: pointer;
 }
@@ -570,11 +611,11 @@ footer {
 .community {
   font-family: "Montserrat";
   transform: translateX(-50%);
-  left: 85%;
+  left: 179rem;
+  top: 277rem;;
   display: flex;
   position: absolute;
-  top: 133.2vw;
-  font-size: 0.9vw;
+  font-size: 2.3rem;
   font-weight: 400;
 }
 
@@ -582,12 +623,12 @@ footer {
   font-family: "Montserrat";
 
   transform: translateX(-50%);
-  left: 83.7%;
+  left: 175.3rem;
+  top: 282rem;;
   display: grid;
   position: absolute;
   gap: 0.625rem;
-  top: 135.1vw;
-  font-size: 0.6vw;
+  font-size: 1.6rem;
   font-weight: 200;
   cursor: pointer;
 }
