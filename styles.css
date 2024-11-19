@@ -5,12 +5,9 @@
   padding: 0;
   box-sizing: border-box;
   list-style: none;
-  
-  
+
   @media screen {
     zoom: 92%;
-    
-    
   }
 }
 
@@ -18,11 +15,6 @@ body {
   background-color: black;
   font-size: 1rem;
   color: #fff;
-  
- 
-  
-  
-    
 }
 
 header {
@@ -219,8 +211,6 @@ div .number::before {
   opacity: 0.5; /* Ajusta a opacidade do fundo */
 }
 
-
-
 .liquidez {
   transform: translateX(50%);
   left: -1rem;
@@ -303,7 +293,7 @@ div {
   z-index: -2; /* Coloca o fundo atrás do texto */
 }
 
-.dúvidas-list{
+.dúvidas-list {
   font-size: 10rem;
 }
 
@@ -322,7 +312,7 @@ div {
   background: linear-gradient(45deg, rgb(139, 68, 125), rgba(0, 0, 0, 0));
   content: "";
   position: absolute;
-  display:flex;
+  display: flex;
   top: 0.8rem;
   left: -0.94rem;
   transform: translateX(-50% 50%);
@@ -356,7 +346,7 @@ div {
   transform: translateY(-50%);
   width: 20rem;
   height: 3rem;
-  display:flex;
+  display: flex;
   border-radius: 0.625rem;
   background-repeat: no-repeat;
   z-index: -1; /* Coloca o fundo atrás do texto */
@@ -378,7 +368,7 @@ div {
   background: linear-gradient(45deg, rgb(139, 68, 125), rgba(0, 0, 0, 0));
   content: "";
   position: absolute;
-  display:flex;
+  display: flex;
   top: 0.9rem;
   left: -1.2rem;
   transform: translateX(-50% 50%);
@@ -395,9 +385,9 @@ div {
   font-family: "Montserrat";
   transform: translateX(-50%);
   left: 53.2rem;
-  display:flex;
+  display: flex;
   position: absolute;
-  top: 80.160rem;
+  top: 80.16rem;
   font-size: 1.2rem;
   font-weight: 400;
 }
@@ -406,7 +396,7 @@ div {
   background: linear-gradient(45deg, rgb(139, 68, 125), rgba(0, 0, 0, 0));
   content: "";
   position: absolute;
-  display:flex;
+  display: flex;
   top: 1.2rem;
   left: -1.2rem;
   transform: translateX(-50% 50%);
@@ -420,7 +410,7 @@ div {
 }
 
 .plus {
-  display:flex;
+  display: flex;
   gap: 2.5rem;
   transform: translateX(-50%);
   transform: translateY(-50%);
@@ -429,8 +419,8 @@ div {
   top: 35.4vw;
   cursor: pointer;
 }
-.plus-list{
-  display:flex;
+.plus-list {
+  display: flex;
   gap: 2.5rem;
   transform: translateX(-50%);
   transform: translateY(-50%);
@@ -438,11 +428,9 @@ div {
   left: 30vw;
   top: -6vw;
   cursor: pointer;
-
-
 }
 .plus-2 {
-  display:flex;
+  display: flex;
   gap: 2.5rem;
   transform: translateX(-50%);
   transform: translateY(-50%);
@@ -453,7 +441,7 @@ div {
 }
 
 .plus-3 {
-  display:flex;
+  display: flex;
   gap: 2.5rem;
   transform: translateX(-50%);
   transform: translateY(-50%);
@@ -464,7 +452,7 @@ div {
 }
 
 .plus-4 {
-  display:flex;
+  display: flex;
   gap: 2.5rem;
   transform: translateX(-50%);
   transform: translateY(-50%);
@@ -522,7 +510,7 @@ div {
 }
 
 /*footer*/
-.footer-text{
+.footer-text {
   font-size: large;
   transform: translateX(-50%);
   left: 50%;
@@ -612,7 +600,7 @@ footer {
   font-family: "Montserrat";
   transform: translateX(-50%);
   left: 179rem;
-  top: 277rem;;
+  top: 277rem;
   display: flex;
   position: absolute;
   font-size: 2.3rem;
@@ -624,7 +612,7 @@ footer {
 
   transform: translateX(-50%);
   left: 175.3rem;
-  top: 282rem;;
+  top: 282rem;
   display: grid;
   position: absolute;
   gap: 0.625rem;
