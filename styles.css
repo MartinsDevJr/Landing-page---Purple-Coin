@@ -6,80 +6,76 @@
   box-sizing: border-box;
   list-style: none;
   
-  
   @media screen {
     zoom: 92%;
-    
-    
   }
 }
 
 body {
   background-color: black;
+  overflow-x: hidden;
   font-size: 1rem;
   color: #fff;
-  
- 
-  
-  
     
 }
 
 header {
-  padding: 6rem;
-  position: absolute;
-  align-items: center;
-  left: 98rem;
-  transform: translateX(-50%);
-  display: grid;
-  grid-template-columns: repeat(2, 0.125rem);
-  gap: 76.875rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 3rem;
+  gap: 2rem; 
 }
 
+
 .logotipo {
-  position: absolute;
   width: 12.3125rem;
-  transform: translateX(-50%);
-  left: -36rem;
-  top: 4rem;
   cursor: pointer;
 }
 
 nav {
-  & ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    position: relative;
-    text-align: center;
-    cursor: pointer;
-    left: 98rem;
-  }
-
-  .signup {
-    border-color: rgba(224, 19, 255, 1);
-    border-style: groove;
-    background-color: rgba(0, 255, 255, 0);
-    width: 8.75rem;
-    height: 3.125rem;
-    transform: translateX(50%);
-    border-radius: 3.125rem;
-    justify-content: center;
-    padding: 0.75rem;
-    font-family: "Montserrat";
-  }
-
-  .binance {
-    background-color: rgb(224, 19, 255);
-    width: 11.875rem;
-    height: 3.125rem;
-    transform: translateX(50%);
-    border-radius: 3.125rem;
-    justify-content: center;
-    padding: 0.9375rem;
-    font-family: "Montserrat";
-    max-width: fit-content;
-  }
+  display: flex;
+  gap: 3rem; 
 }
+
+button {
+  border-radius: 3.125rem;
+  padding: 0.75rem 1.25rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.20rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.Entrar {
+  border: 2px solid rgba(224, 19, 255, 1);
+  background-color: transparent;
+  color: #ffffff;
+  width: 8.75rem;
+  height: 3.125rem;
+  
+}
+
+.Entrar:hover {
+  box-shadow: 0 0 10px 3px rgba(224, 19, 255, 1);
+  text-shadow: 0 0 5px rgba(224, 19, 255, 1), 0 0 10px rgba(224, 19, 255, 1);
+}
+
+.Binance:hover {
+  background-color: rgba(224, 19, 255, 0.76);
+}
+
+.Binance {
+  background-color: rgb(224, 19, 255);
+  color:  #ffffff;
+  width: 11.875rem;
+  height: 3.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 .text-purple {
   position: absolute;
@@ -632,3 +628,5 @@ footer {
   font-weight: 200;
   cursor: pointer;
 }
+
+/* Media scream*/
