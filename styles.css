@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   list-style: none;
-  
+
   @media screen {
     zoom: 92%;
   }
@@ -16,17 +16,15 @@ body {
   overflow-x: hidden;
   font-size: 1rem;
   color: #fff;
-    
 }
 
 header {
   display: flex;
   justify-content: space-between;
-  align-items: center; 
+  align-items: center;
   padding: 3rem;
-  gap: 2rem; 
+  gap: 2rem;
 }
-
 
 .logotipo {
   width: 12.3125rem;
@@ -35,14 +33,14 @@ header {
 
 nav {
   display: flex;
-  gap: 3rem; 
+  gap: 3rem;
 }
 
 button {
   border-radius: 3.125rem;
   padding: 0.75rem 1.25rem;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.20rem;
+  font-size: 1.2rem;
   cursor: pointer;
   font-weight: bold;
   transition: all 0.3s ease;
@@ -54,7 +52,6 @@ button {
   color: #ffffff;
   width: 8.75rem;
   height: 3.125rem;
-  
 }
 
 .Entrar:hover {
@@ -68,7 +65,7 @@ button {
 
 .Binance {
   background-color: rgb(224, 19, 255);
-  color:  #ffffff;
+  color: #ffffff;
   width: 11.875rem;
   height: 3.125rem;
   display: flex;
@@ -76,13 +73,14 @@ button {
   justify-content: center;
 }
 
-
 .text-purple {
-  position: absolute;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
   top: 35rem;
   transform: translateX(-50%);
   transform: translateY(20%);
-  left: 55rem;
+  left: 75rem;
   width: 100rem;
   padding-top: 0.3125rem;
   font-family: "jockey one";
@@ -138,52 +136,48 @@ button {
   transform: translate(-50%, -50%);
 }
 
-.smartphone {
-  transform: translateX(-50%);
-  position: absolute;
-  left: 120rem;
-  top: 94rem;
-  width: 30rem;
-}
-.real-time {
-  position: absolute;
-  transform: translateX(50%);
-  left: 38rem;
-  top: 113rem;
-  font-family: "Montserrat";
-  font-size: 3.75rem;
+.box-real-time {
+  top: 25rem;
+  position: relative;
+
+  & h1 {
+    position: relative;
+    transform: translateX(50%);
+    left: -49.1rem;
+    top: 74rem;
+    font-family: "Montserrat";
+    font-size: 3.75rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  & img {
+    transform: translateX(-50%);
+    position: relative;
+    left: 150rem;
+    top: 35rem;
+    width: 30rem;
+    justify-content: space-between;
+    z-index: -1;
+  }
 }
 
 .coins {
+  display: flex;
+  justify-content: space-between;
   transform: translateX(-50%);
-  position: absolute;
-  left: 100rem;
-  width: 120rem;
-  top: 80rem;
+  position: relative;
+  left: 110rem;
+  width: 100rem;
+  top: 6rem;
+  z-index: -1;
 }
 
-#text-information {
-  position: absolute;
-  transform: translateX(-50%);
-  left: 99rem;
-  top: 156rem;
-}
+/*dados de liquidez*/
 
-div .real-time::before {
-  background: linear-gradient(45deg, rgb(139, 68, 125), rgba(0, 0, 0, 0));
-  content: "";
-  position: absolute;
-  top: 9.4rem;
-  left: -13rem;
+.text-and-number {
+  position: relative;
   transform: translateX(-50%);
-  transform: translateY(-50%);
-  filter: brightness(4px);
-  width: 105rem;
-  height: 60rem;
-  background-repeat: no-repeat;
-  border-radius: 3.125rem;
-  z-index: -1; /* Coloca o fundo atrás do texto */
-  opacity: 0.5; /* Ajusta a opacidade do fundo */
+  left: 102rem;
 }
 
 div {
@@ -196,26 +190,61 @@ div {
     font-size: 3.4375rem;
     letter-spacing: 0.0625rem;
     word-spacing: 17.5rem;
-    top: 25rem;
+    top: 10rem;
+  }
+
+  & .h41 {
+    position: relative;
+    font-weight: 300;
+    font-family: "Montserrat";
+    transform: translateX(-50%);
+    transform: translateY(40%);
+    left: -2.1rem;
+    font-size: 1.6rem;
+    display: inline-flex;
+    row-gap: 12rem;
+    top: 11.2rem;
+  }
+
+  & .h42 {
+    position: relative;
+    font-weight: 300;
+    font-family: "Montserrat";
+    transform: translateX(-50%);
+    transform: translateY(40%);
+    left: 16rem;
+    font-size: 1.6rem;
+    display: inline-flex;
+    row-gap: 12rem;
+    top: 11.2rem;
+  }
+
+  & .h43 {
+    position: relative;
+    font-weight: 300;
+    font-family: "Montserrat";
+    transform: translateX(-50%);
+    transform: translateY(40%);
+    left: 32rem;
+    font-size: 1.6rem;
+    display: inline-flex;
+    row-gap: 12rem;
+    top: 11.2rem;
+  }
+
+  & .h44 {
+    position: relative;
+    font-weight: 300;
+    font-family: "Montserrat";
+    transform: translateX(-50%);
+    transform: translateY(40%);
+    left: 43rem;
+    font-size: 1.6rem;
+    display: inline-flex;
+    row-gap: 12rem;
+    top: 11.2rem;
   }
 }
-
-div .number::before {
-  background: linear-gradient(45deg, rgb(139, 68, 125), rgba(0, 0, 0, 0.842));
-  content: "";
-  position: absolute;
-  top: -20rem;
-  left: -50rem;
-  transform: translateX(-50%);
-  transform: translateY(-50%);
-  width: 225rem;
-  height: 10rem;
-  background-repeat: no-repeat;
-  z-index: -1; /* Coloca o fundo atrás do texto */
-  opacity: 0.5; /* Ajusta a opacidade do fundo */
-}
-
-
 
 .liquidez {
   transform: translateX(50%);
@@ -258,12 +287,11 @@ div .number::before {
   top: 26.875rem;
 }
 
-.star {
-  position: absolute;
+#section3-information {
+  position: relative;
   transform: translateX(-50%);
-  transform: translateY(-50%);
-  top: 5rem;
-  left: -130rem;
+  left: 172rem;
+  top: 20rem;
 }
 
 div {
@@ -278,247 +306,198 @@ div {
   }
 }
 
-.dúvidas {
+.box-dúvidas {
+  font-family: "Montserrat";
   transform: translateX(-50%);
-  left: 80rem;
-  top: -23.125rem;
+  left: 176rem;
+  display: flex;
   position: relative;
-  z-index: -2;
+  top: 45rem;
+  justify-content: space-between;
+  font-size: 1.25rem;
+  font-weight: 400;
 }
-.dúvidas::before {
+
+.box-dúvidas {
+  & h1 {
+    transform: translateX(-50%);
+    left: -71rem;
+    top: -1rem;
+  }
+}
+
+.box-dúvidas {
+  & p {
+    position: fixed;
+    transform: translatex(-50%);
+    left: 3rem;
+    gap: 10rem;
+    font-size: 1.3rem;
+  }
+}
+
+.box-dúvidas::before {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(134, 0, 151),
+    rgb(35, 7, 43)
+  );
+  content: "";
+  position: relative;
+  top: 10rem;
+  left: -141rem;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+  width: 230rem;
+  height: 50rem;
+  background-repeat: no-repeat;
+  z-index: -1; /* Coloca o fundo atrás do texto */
+  opacity: 0.6; /* Ajusta a opacidade do fundo */
+}
+
+.plus-list {
+  display: grid;
+  gap: 1.5rem;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+  position: absolute;
+  left: 20rem;
+  top: 6rem;
+  cursor: pointer;
+}
+
+/*seção-sobre-pueple*/
+
+.about-purple {
+  position: relative;
+  transform: translateX(-50%);
+  left: 100rem;
+  top: 40rem;
+  display: flex;
+  justify-content: space-between;
+  font-family: "montserrat";
+
+  & img {
+    position: relative;
+    width: 100rem;
+    transform: translateX(-50%);
+    left: 1rem;
+    top: 17rem;
+  }
+}
+
+.title-about {
+  transform: translateX(-50%);
+  left: -2rem;
+  top: 52rem;
+}
+
+.text-about {
+  transform: translateX(-50%);
+  left: 10rem;
+  position: relative;
+  top: 68rem;
+  display: flex;
+  width: 55rem;
+  font-size: 2rem;
+  justify-content: space-between;
+}
+
+.Learn-more {
   background-color: purple;
-  content: "";
-  position: absolute;
-  top: 65.4rem;
-  left: -19rem;
-  transform: translateX(-50%);
-  transform: translateY(-50%);
-  width: 18rem;
-  height: 4rem;
-  background-repeat: no-repeat;
-  z-index: -2; /* Coloca o fundo atrás do texto */
-}
-
-.dúvidas-list{
-  font-size: 10rem;
-}
-
-.o-que-é {
-  font-family: "Montserrat";
-  transform: translateX(-50%);
-  left: 48.4rem;
-  display: flex;
-  position: absolute;
-  top: 69.5rem;
-  font-size: 1.25rem;
-  font-weight: 400;
-}
-
-.o-que-é::before {
-  background: linear-gradient(45deg, rgb(139, 68, 125), rgba(0, 0, 0, 0));
-  content: "";
-  position: absolute;
-  display:flex;
-  top: 0.8rem;
-  left: -0.94rem;
-  transform: translateX(-50% 50%);
-  transform: translateY(-50%);
-  width: 30rem;
-  height: 3rem;
-  border-radius: 0.625rem;
-  background-repeat: no-repeat;
-  z-index: -1; /* Coloca o fundo atrás do texto */
-  opacity: 0.5; /* Ajusta a opacidade do fundo */
-}
-
-.como-eu-posso {
-  font-family: "Montserrat";
-  transform: translateX(-50%);
-  left: 52.7rem;
-  display: flex;
-  position: absolute;
-  top: 73.125rem;
-  font-size: 1.25rem;
-  font-weight: 400;
-}
-
-.como-eu-posso::before {
-  background: linear-gradient(45deg, rgb(139, 68, 125), rgba(0, 0, 0, 0));
-  content: "";
-  position: absolute;
-  top: 0.8rem;
-  left: -1rem;
-  transform: translateX(-50% 50%);
-  transform: translateY(-50%);
-  width: 20rem;
-  height: 3rem;
-  display:flex;
-  border-radius: 0.625rem;
-  background-repeat: no-repeat;
-  z-index: -1; /* Coloca o fundo atrás do texto */
-  opacity: 0.5; /* Ajusta a opacidade do fundo */
-}
-
-.como-recebo {
-  font-family: "Montserrat";
-  transform: translateX(-50%);
-  left: 96rem;
-  display: flex;
   position: relative;
-  top: 76.6875rem;
-  font-size: 1.25rem;
-  font-weight: 400;
-}
-
-.como-recebo::before {
-  background: linear-gradient(45deg, rgb(139, 68, 125), rgba(0, 0, 0, 0));
-  content: "";
-  position: absolute;
-  display:flex;
-  top: 0.9rem;
-  left: -1.2rem;
-  transform: translateX(-50% 50%);
-  transform: translateY(-50%);
-  width: 30rem;
-  height: 3rem;
-  border-radius: 0.625rem;
-  background-repeat: no-repeat;
-  z-index: -1; /* Coloca o fundo atrás do texto */
-  opacity: 0.5; /* Ajusta a opacidade do fundo */
-}
-
-.qual-risco {
-  font-family: "Montserrat";
   transform: translateX(-50%);
-  left: 53.2rem;
-  display:flex;
-  position: absolute;
-  top: 80.160rem;
-  font-size: 1.2rem;
-  font-weight: 400;
-}
-
-.qual-risco::before {
-  background: linear-gradient(45deg, rgb(139, 68, 125), rgba(0, 0, 0, 0));
-  content: "";
-  position: absolute;
-  display:flex;
-  top: 1.2rem;
-  left: -1.2rem;
-  transform: translateX(-50% 50%);
-  transform: translateY(-50%);
-  width: 20vw;
-  height: 3.125rem;
-  border-radius: 0.625rem;
-  background-repeat: no-repeat;
-  z-index: -1; /* Coloca o fundo atrás do texto */
-  opacity: 0.5; /* Ajusta a opacidade do fundo */
-}
-
-.plus {
-  display:flex;
-  gap: 2.5rem;
-  transform: translateX(-50%);
-  transform: translateY(-50%);
-  position: absolute;
-  left: 38vw;
-  top: 35.4vw;
+  left: -256rem;
+  color: #fff;
+  top: 100rem;
+  width: 16rem;
+  height: 5rem;
+  font-size: 1.7rem;
   cursor: pointer;
-}
-.plus-list{
-  display:flex;
-  gap: 2.5rem;
-  transform: translateX(-50%);
-  transform: translateY(-50%);
-  position: absolute;
-  left: 30vw;
-  top: -6vw;
-  cursor: pointer;
-
-
-}
-.plus-2 {
-  display:flex;
-  gap: 2.5rem;
-  transform: translateX(-50%);
-  transform: translateY(-50%);
-  position: absolute;
-  left: 38vw;
-  top: 37.2vw;
-  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-.plus-3 {
-  display:flex;
-  gap: 2.5rem;
-  transform: translateX(-50%);
-  transform: translateY(-50%);
-  position: absolute;
-  left: 38vw;
-  top: 38.9vw;
-  cursor: pointer;
+.button:active {
+  transform: translateY(3px) scale(0.95);
+  box-shadow: 0 2px 4px rgb(255, 255, 255);
 }
 
-.plus-4 {
-  display:flex;
-  gap: 2.5rem;
-  transform: translateX(-50%);
-  transform: translateY(-50%);
-  position: absolute;
-  left: 38vw;
-  top: 40.6vw;
-  cursor: pointer;
+.Learn-more:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  background-color: #fff;
+  color: purple;
 }
-.exchange {
+
+/*seção-exchange*/
+
+.exchanges-list {
   position: relative;
-  top: 15vw;
+  top: 2rem;
   transform: translateX(-50%);
-  left: 48rem;
+  left: 115rem;
 }
 
-.text-listing {
+.text-follow {
+  left: 38rem;
   transform: translateX(-50%);
-  left: 54rem;
-  position: absolute;
-  top: 70rem;
+  position: relative;
+  top: 200rem;
+  display: flex;
+  width: 55rem;
+  font-size: 2rem;
+  justify-content: space-between;
   font-family: "Montserrat";
-  font-size: 2.1875rem;
-  font-weight: 300;
-  width: 60rem;
 }
+
+.exchanges {
+  position: relative;
+  transform: translateX(-50%);
+  left: 100rem;
+  top: 10rem;
+}
+
 .one {
+  transform: translateX(-50%);
+  left: 30rem;
   position: relative;
   width: 15rem;
-  top: 41rem;
+  top: 210rem;
   cursor: pointer;
 }
 .two {
-  position: relative;
-  width: 17rem;
-  top: 40.4rem;
   transform: translateX(-50%);
-  left: 19rem;
+  left: 33rem;
+  position: relative;
+  width: 15rem;
+  top: 209rem;
   cursor: pointer;
 }
 .tree {
-  position: relative;
-  width: 17rem;
-  top: 38.3rem;
   transform: translateX(-50%);
-  left: 27rem;
+  left: 38rem;
+  position: relative;
+  width: 15rem;
+  top: 207.3rem;
   cursor: pointer;
 }
 .four {
-  position: relative;
-  width: 10rem;
-  top: 37rem;
   transform: translateX(-50%);
-  left: 35rem;
+  left: 42rem;
+  position: relative;
+  width: 9rem;
+  top: 206.3rem;
   cursor: pointer;
 }
 
 /*footer*/
-.footer-text{
+
+.footer-all {
+  position: relative;
+  top: -76rem;
+}
+
+.footer-text {
   font-size: large;
   transform: translateX(-50%);
   left: 50%;
@@ -528,21 +507,6 @@ div {
 footer {
   transform: translateY(200%);
   bottom: 20rem;
-}
-
-.footer::before {
-  background-color: purple;
-  content: "";
-  position: absolute;
-  top: 240rem;
-  left: -1rem;
-  transform: translateX(-50%);
-  transform: translateY(-50%);
-  width: 204.2rem;
-  height: 20rem;
-  background-repeat: no-repeat;
-  z-index: -1; /* Coloca o fundo atrás do texto */
-  opacity: 1; /* Ajusta a opacidade do fundo */
 }
 
 .logotipo-footer {
@@ -608,7 +572,7 @@ footer {
   font-family: "Montserrat";
   transform: translateX(-50%);
   left: 179rem;
-  top: 277rem;;
+  top: 277rem;
   display: flex;
   position: absolute;
   font-size: 2.3rem;
@@ -620,7 +584,7 @@ footer {
 
   transform: translateX(-50%);
   left: 175.3rem;
-  top: 282rem;;
+  top: 282rem;
   display: grid;
   position: absolute;
   gap: 0.625rem;
@@ -629,4 +593,17 @@ footer {
   cursor: pointer;
 }
 
-/* Media scream*/
+.footer::before {
+  background-color: purple;
+  content: "";
+  position: absolute;
+  top: 150rem;
+  left: -1rem;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+  width: 204.2rem;
+  height: 20rem;
+  background-repeat: no-repeat;
+  z-index: -1; /* Coloca o fundo atrás do texto */
+  opacity: 1; /* Ajusta a opacidade do fundo */
+}
