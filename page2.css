@@ -13,12 +13,13 @@
 }
 
 .inputs {
-  height: 23.375rem;
-  width: 16.5625rem;
+  height: 23.39rem;
+  width: 298px;
   padding: 3.125rem 3.125rem;
+  color: white;
   border-radius: border-box;
-  border: 2px solid #007bff;
-  box-shadow: 0rem 0.25rem 0.25rem 0rem rgba(0, 0, 0, 0.25) inset;
+  border: 0.068rem solid #9c1eaf87;
+  box-shadow: 0rem 0.12rem 0.12rem 0.1rem rgba(0, 0, 0, 0.31) inset;
   backdrop-filter: blur(11.899999618530273px);
   transition: all 0.3s ease;
   display: flex;
@@ -27,14 +28,27 @@
 }
 
 input {
-  padding: 0.625rem;
+  padding: 0.8rem;
   margin-bottom: 0.625rem;
   font-size: 0.625rem;
+  border: 0.5px solid;
+  background-color: transparent;
+  border-image: linear-gradient(90deg, #ffffff 0%, #9b1eaf 100%);
+  border-image-slice: 3;
+  color: rgba(255, 255, 255, 0.161);
+  box-shadow: 0 0.9375rem 0.9375rem rgba(0, 0, 0, 0.15);
+  margin-top: 1rem;
+}
+
+input::placeholder {
+  font-size: 0.6rem;
+  color: rgba(255, 255, 255, 0.556);
+  opacity: 3;
 }
 
 button {
-  width: 16.5625rem;
-  height: 2.375rem;
+  width: 18.5625rem;
+  height: 2.38rem;
   gap: 0rem;
   opacity: 0rem;
   padding: 0.625rem;
@@ -43,6 +57,30 @@ button {
   cursor: pointer;
   background: linear-gradient(194.2deg, #e017ff -73.65%, #550d55 107.28%);
   color: white;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background: #e017ff61;
+}
+
+.voltar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: white;
+  text-shadow: 0 0 5px rgba(224, 19, 255, 0.076), 0 0 10px rgba(224, 19, 255, 1);
 }
 
 .text1 {
