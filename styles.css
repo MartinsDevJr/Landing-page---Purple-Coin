@@ -76,7 +76,7 @@ button {
 .text-purple {
   transform: translateX(-50%);
   transform: translateY(20%);
-  left: 75rem;
+
   width: 100rem;
   padding-top: 0.3125rem;
   font-family: "jockey one";
@@ -139,38 +139,38 @@ button {
 }
 
 .box-real-time {
+  margin-left: 20rem;
   top: 25rem;
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
 
-  & h1 {
-    position: relative;
-    transform: translateX(50%);
-    left: -49.1rem;
-    top: 74rem;
-    font-family: "Montserrat";
-    font-size: 3.75rem;
-    display: flex;
-    justify-content: space-between;
-  }
-  & img {
-    transform: translateX(-50%);
-    position: relative;
-    left: 150rem;
-    top: 35rem;
-    width: 30rem;
-    justify-content: space-between;
-    z-index: -1;
-  }
+.text-rt {
+  display: flex;
+  margin-left: 70rem;
+  margin-top: 74rem;
+  font-family: "Montserrat";
+  font-size: 3.75rem;
+}
+.images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.smart-rt {
+  display: flex;
+  margin-left: 130rem;
+  margin-top: 46rem;
+  width: 30rem;
+  z-index: -1;
 }
 
 .coins {
-  display: flex;
-  justify-content: space-between;
-  transform: translateX(-50%);
-  position: relative;
-  left: 110rem;
+  margin-left: 67rem;
   width: 100rem;
-  top: 6rem;
+  margin-top: -60rem;
   z-index: -1;
 }
 
