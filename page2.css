@@ -84,8 +84,13 @@ a:hover {
 }
 
 .text1 {
-  font-size: 1.5625rem;
+  font-family: 'Montserrat';
+  font-size: 1.1rem;
   justify-content: center;
+
+  & p {
+    font-family: 'Montserrat';
+  }
 }
 
 .background-page2 {
