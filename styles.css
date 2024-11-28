@@ -146,7 +146,7 @@ button {
 
 .real-time-all {
   margin-top: 35rem;
-  margin-left: 75rem;
+  margin-left: 74rem;
 }
 
 /*tempo-real*/
@@ -159,6 +159,7 @@ button {
   align-items: center;
   font-family: "Montserrat";
   font-size: 2.4rem;
+  gap: 15rem;
 
   h1 {
     margin-left: -50rem;
@@ -174,6 +175,7 @@ button {
   align-items: center;
   font-family: "Montserrat";
   font-size: 2.4rem;
+  margin-left: -8rem;
   padding-left: -20rem;
   margin-top: 32rem;
   gap: 10rem;
@@ -183,7 +185,6 @@ button {
   display: flex;
   justify-content: center;
   font-family: "Montserrat";
-  margin-left: -5rem;
   margin-top: -30rem;
   gap: 10rem;
 }
@@ -192,7 +193,7 @@ button {
   display: flex;
   justify-content: center;
   font-family: "Montserrat";
-  margin-left: -65rem;
+  margin-left: -73.4rem;
   margin-top: 1rem;
   font-size: 1.5rem;
   gap: 10rem;
@@ -203,7 +204,7 @@ button {
   display: flex;
   justify-content: center;
   font-family: "Montserrat";
-  margin-left: -20rem;
+  margin-left: -28rem;
   margin-top: -1.9rem;
   font-size: 1.5rem;
   gap: 10rem;
@@ -214,7 +215,7 @@ button {
   display: flex;
   justify-content: center;
   font-family: "Montserrat";
-  margin-left: 23rem;
+  margin-left: 14.5rem;
   margin-top: -1.97rem;
   font-size: 1.5rem;
   gap: 10rem;
@@ -225,7 +226,7 @@ button {
   display: flex;
   justify-content: center;
   font-family: "Montserrat";
-  margin-left: 64rem;
+  margin-left: 55rem;
   margin-top: -1.9rem;
   font-size: 1.5rem;
   gap: 10rem;
@@ -239,7 +240,7 @@ button {
   justify-content: center;
   align-items: center;
   font-family: "Montserrat";
-  padding-top: 30rem;
+  padding-top: 53rem;
   padding-bottom: 30rem;
   gap: 40rem;
   margin-left: 20rem;
@@ -319,6 +320,50 @@ button {
   color: #fff;
 }
 
+.exchanges {
+  margin-left: -75rem;
+  display: flex;
+  justify-content: center;
+}
+
+.text-exchanges {
+  margin-left: 90rem;
+  margin-top: 40rem;
+  font-family: "Montserrat";
+  font-size: 3.4rem;
+  width: 180rem;
+}
+
+.img-exchanges {
+  margin-left: -173rem;
+}
+
+.Bin {
+  display: flex;
+  width: 320px;
+  margin-top: 45rem;
+}
+.Pan {
+  display: flex;
+  width: 400px;
+  margin-top: -13.5rem;
+  margin-left: 20rem;
+}
+
+.CoinM {
+  display: flex;
+  width: 400px;
+  margin-top: -10rem;
+  margin-left: 48rem;
+}
+
+.CoinB {
+  display: flex;
+  width: 200px;
+  margin-top: -4rem;
+  margin-left: 79rem;
+}
+
 /*footer*/
 
 .footer-all {
@@ -337,7 +382,7 @@ button {
   display: block;
   width: 17rem;
   transform: translateX(-50%);
-  margin-top: 280rem;
+  margin-top: 41rem;
   margin-left: 23rem;
   cursor: pointer;
 }
@@ -345,8 +390,8 @@ button {
 .procuct {
   display: flex;
   flex-direction: column;
-  margin-left: 123rem;
-  margin-top: 276.9rem;
+  margin-left: 90rem;
+  margin-top: 37rem;
   position: absolute;
   font-size: 2.3rem;
   font-weight: 500;
@@ -363,8 +408,8 @@ button {
 .Listing {
   display: flex;
   flex-direction: column;
-  margin-left: 170rem;
-  margin-top: 276.9rem;
+  margin-left: 129rem;
+  margin-top: 37rem;
   position: absolute;
   font-size: 2.3rem;
   font-weight: 400;
@@ -381,8 +426,8 @@ button {
 .community {
   display: flex;
   flex-direction: column;
-  margin-left: 218rem;
-  margin-top: 276.9rem;
+  margin-left: 170rem;
+  margin-top: 37rem;
   position: absolute;
   font-size: 2.3rem;
   font-weight: 400;
@@ -401,7 +446,7 @@ button {
   background-color: purple;
   content: "";
   position: absolute;
-  margin-top: 260rem;
+  margin-top: 40rem;
   margin-left: 40rem;
   transform: translateX(-50%);
   transform: translateY(-50%);
