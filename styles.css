@@ -76,9 +76,7 @@ button {
 }
 
 .text-purple {
-  transform: translateX(-50%);
   transform: translateY(20%);
-
   width: 100rem;
   padding-top: 0.3125rem;
   font-family: "jockey one";
@@ -90,7 +88,7 @@ button {
   animation: mark 0.5s step-end infinite, write 3s steps(22, end) infinite;
   width: 0ch;
 }
-.container {
+#container {
   margin-top: 30rem;
   display: flex;
   justify-content: center;
@@ -148,7 +146,14 @@ button {
 
 .real-time-all {
   margin-top: 35rem;
-  margin-left: 40rem;
+  margin-left: 75rem;
+}
+
+/*tempo-real*/
+
+.real-time-itens {
+  margin-left: -52rem;
+  margin-top: 70rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -237,7 +242,7 @@ button {
   padding-top: 30rem;
   padding-bottom: 30rem;
   gap: 40rem;
-  margin-left: 25rem;
+  margin-left: 20rem;
 
   h1 {
     font-size: 3.5rem;
@@ -317,117 +322,96 @@ button {
 /*footer*/
 
 .footer-all {
-  position: relative;
-  top: -76rem;
-}
-
-.footer-text {
-  font-size: large;
-  transform: translateX(-50%);
-  left: 50%;
-  top: 20rem;
-}
-
-footer {
-  transform: translateY(200%);
-  bottom: 20rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 4rem;
+  margin-left: -40rem;
 }
 
 .logotipo-footer {
-  position: relative;
+  display: block;
   width: 17rem;
   transform: translateX(-50%);
-  transform: translateY(50%);
-  top: 278rem;
-  left: 23.8vw;
+  margin-top: 280rem;
+  margin-left: 23rem;
   cursor: pointer;
 }
 
 .procuct {
-  font-family: "Montserrat";
-  transform: translateX(-50%);
-  left: 123rem;
-  top: 277rem;
   display: flex;
+  flex-direction: column;
+  margin-left: 123rem;
+  margin-top: 276.9rem;
   position: absolute;
   font-size: 2.3rem;
-  font-weight: 400;
-}
+  font-weight: 500;
 
-.procuct-list {
-  font-family: "Montserrat";
-  transform: translateX(-50%);
-  transform: translateX(-50%);
-  left: 122.7rem;
-  top: 281.8rem;
-  display: grid;
-  position: absolute;
-  gap: 0.625rem;
-  font-size: 1.6rem;
-  font-weight: 200;
-  cursor: pointer;
+  & a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: inherit; /* Faz com que o link herde a cor do texto do elemento pai */
+    padding-top: 1rem;
+    font-size: 1.8rem;
+    font-weight: 300;
+  }
 }
 
 .Listing {
-  font-family: "Montserrat";
-  transform: translateX(-50%);
-  left: 149rem;
-  top: 277rem;
   display: flex;
+  flex-direction: column;
+  margin-left: 170rem;
+  margin-top: 276.9rem;
   position: absolute;
   font-size: 2.3rem;
   font-weight: 400;
-}
 
-.Listing-list {
-  font-family: "Montserrat";
-  transform: translateX(-50%);
-  left: 149rem;
-  top: 281.8rem;
-  display: grid;
-  position: absolute;
-  gap: 0.625rem;
-  font-size: 1.6rem;
-  font-weight: 200;
-  cursor: pointer;
+  & a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: inherit; /* Faz com que o link herde a cor do texto do elemento pai */
+    padding-top: 1rem;
+    font-size: 1.8rem;
+    font-weight: 300;
+  }
 }
 
 .community {
-  font-family: "Montserrat";
-  transform: translateX(-50%);
-  left: 179rem;
-  top: 277rem;
   display: flex;
+  flex-direction: column;
+  margin-left: 218rem;
+  margin-top: 276.9rem;
   position: absolute;
   font-size: 2.3rem;
   font-weight: 400;
+
+  & a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: inherit; /* Faz com que o link herde a cor do texto do elemento pai */
+    padding-top: 1rem;
+    font-size: 1.8rem;
+    font-weight: 300;
+  }
 }
 
-.community-list {
-  font-family: "Montserrat";
-
-  transform: translateX(-50%);
-  left: 175.3rem;
-  top: 282rem;
-  display: grid;
-  position: absolute;
-  gap: 0.625rem;
-  font-size: 1.6rem;
-  font-weight: 200;
-  cursor: pointer;
-}
-
-.footer::before {
+.footer-all::before {
+  display: block;
   background-color: purple;
   content: "";
   position: absolute;
-  top: 150rem;
-  left: -1rem;
+  margin-top: 260rem;
+  margin-left: 40rem;
   transform: translateX(-50%);
   transform: translateY(-50%);
-  width: 204.2rem;
-  height: 20rem;
+  width: 100%;
+  height: 23rem;
   background-repeat: no-repeat;
   z-index: -1; /* Coloca o fundo atrás do texto */
   opacity: 1; /* Ajusta a opacidade do fundo */
+
+  & img {
+    margin-left: 6rem;
+  }
 }
