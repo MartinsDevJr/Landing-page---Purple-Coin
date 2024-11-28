@@ -91,7 +91,7 @@ button {
 #container {
   margin-top: 30rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
@@ -146,7 +146,8 @@ button {
 
 .real-time-all {
   margin-top: 35rem;
-  margin-left: 40rem;
+  margin-left: 75rem;}
+
 /*tempo-real*/
 
 .real-time-itens {
@@ -240,7 +241,7 @@ button {
   padding-top: 30rem;
   padding-bottom: 30rem;
   gap: 40rem;
-  margin-left: 25rem;
+  margin-left: 20rem;
 
   h1 {
     font-size: 3.5rem;
@@ -425,10 +426,10 @@ footer {
   content: "";
   position: absolute;
   top: 150rem;
-  left: -1rem;
+  left: 1rem;
   transform: translateX(-50%);
   transform: translateY(-50%);
-  width: 204.2rem;
+  width: 240rem;
   height: 20rem;
   background-repeat: no-repeat;
   z-index: -1; /* Coloca o fundo atrás do texto */
