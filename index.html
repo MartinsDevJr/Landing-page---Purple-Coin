@@ -5,25 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PurpleCoin - Conheça o novo</title>
     <link rel="stylesheet" href="https://fonts.google.com/" />
+  
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="mediascreen-1920.css">
   </head>
 <body>
-  <!--header-->
+ <!--NAVBAR MOBILE-->
+  <header class="navbar-mobile">
+    <nav class="navbar">
+    <div class="hamburger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="page2.html">Entrar</a></li>
+      <li><a href="https://www.binance.com/pt-BR" target="_blank" rel="Binance">Binance</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+
+ <!--NAVBAR DESKTOP-->
+
     <header>
       <img class="logotipo" src="assets/images/logo-2.png" alt="" />
       <nav class="menu">
         <a href="page2.html">
-          <button class="Entrar">Contato</button>
+          <button class="Entrar" target="_blank" rel="Entrar">Contato</button>
         </a>
         <a href="https://www.binance.com/pt-BR" target="_blank" rel="Binance">
             <button class="Binance">Binance</button>
           </a>
         </nav>
+        
         
     </header>
        
@@ -149,12 +168,7 @@
         <div><button class="btn-about">Saiba mais</button>
 
 </div>
-      
-
-      
-
-      
-      </div>
+  </div>
     </div>
    
     
@@ -197,6 +211,18 @@
       </div>
       
     </footer>
+    <script>
+      const navBar = document.getElementById ("hamburger");
+      const hamburger = document.querySelector('.hamburger')
+      const navLinks = document.querySelector('.nav-links')
+      
+      hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle('active');
+        navLinks.classList.toggle('active');
+      })
+      
+     
+      </script>
   </body>
 </html>
 
